@@ -153,12 +153,55 @@ a{
 } 
 #upcomingInfo .blogs_wrapper .blog .timeCommet{
     color: rgba(22, 22, 22, 0.7);
-} 
-#upcomingInfo .blogs_wrapper .blog .timeCommet i{
-
-} 
+}
 #upcomingInfo .blogs_wrapper .blog .timeCommet span{
     display: inline-block;
     margin: 0 12px 0 6px;
 } 
 /* //Upcomimg Info Section CSS End */
+
+/* Footer Section CSS Start */
+footer{
+    background: #161616;
+    margin-top: 100px;
+    padding: 90px 0;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-bottom: 35px;
+}
+footer .socialLink_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .terms_praivacy a{
+    display: inline-block;
+    color: #B9B9B9;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+} 
+footer .social_link{
+    margin-top: 20px;
+}
+footer .social_link a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+/* //Footer Section CSS End */
