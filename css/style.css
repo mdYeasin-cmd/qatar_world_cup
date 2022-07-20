@@ -64,6 +64,9 @@ a{
     line-height: 80px;
     color: #fff;
 }
+#banner .banner_desc h1 span{
+    color: #FFBD00;
+}
 #banner .banner_desc p{
     font-size: 16px;
     font-weight: 400;
@@ -94,10 +97,6 @@ a{
     background-image: linear-gradient(to right, rgba(18, 18, 18, 0.9) 0%, rgba(18, 18, 18, 0) 100%);
     border-radius: 10px;
     max-height: 312px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; */
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -114,10 +113,6 @@ a{
     font-size: 20px;
     line-height: 30px;
     color: #161616;
-}
-#upcomingInfo nav.pageNavigation .blog a{
-    background-color: #75AEE0;
-    color: #fff;
 }
 #upcomingInfo .blogs_wrapper{
     display: grid;
@@ -210,3 +205,47 @@ footer .social_link a{
     font-size: 20px;
 }
 /* //Footer Section CSS End */
+
+/* =========================================================================
+                                Match Page Design Start Here
+========================================================================== */
+
+/* Match Section CSS Start */
+#upcomingInfo .flag_wrapper{
+    display: flex;
+    padding: 30px 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+#upcomingInfo .flag_wrapper .left_flag{
+    width: 42%;
+}
+#upcomingInfo .flag_wrapper p{
+    width: 10%;
+}
+#upcomingInfo .flag_wrapper .right_flag{
+    width:  42%;
+}
+#upcomingInfo .flag_wrapper img.flag{
+    border-radius: initial !important;
+    min-height: initial;
+}
+#upcomingInfo.match_schedule .match_desc{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#upcomingInfo.match_schedule .match_desc h3{
+    margin: 8px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+#upcomingInfo.match_schedule .match_desc p{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* //Match Section CSS End */
+
+/* =========================================================================
+                                Match Page Design End Here
+========================================================================== */

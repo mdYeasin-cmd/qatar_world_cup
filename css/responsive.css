@@ -112,21 +112,13 @@
         background: initial;
         height: 250px;
     }
-    /* #upcomingInfo nav{
-        grid-template-columns: repeat(3, 1fr);
-        margin-bottom: 30px;
-        background: initial;
-    } */
     #upcomingInfo nav.pageNavigation a{
         width: 230px;
-    }
-    #upcomingInfo nav.pageNavigation .blog a{
-        border: 1px solid #75AEE0;
     }
     #upcomingInfo nav.pageNavigation a{
         border: 1px solid #E8E8E8;
     }
-    #upcomingInfo .blogs_wrapper .blog:last-child{
+    #upcomingInfo .blogs_wrapper .blog:nth-child(9){
         display: none;
     }
     #upcomingInfo .viewAll_btn{
