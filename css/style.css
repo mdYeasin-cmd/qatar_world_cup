@@ -26,6 +26,20 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #75AEE0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+.btn:hover{
+    background-color: #FFBD00;
+    color: rgba(0, 0, 0, 0.8);
+}
 /* //Common CSS End */
 
 /* Banner Section CSS Start */
@@ -57,21 +71,6 @@ a{
     color: #fff;
     margin: 20px 0 30px;
 }
-#banner .banner_desc a{
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    /* border: 1px solid #fff; */
-    background-color: #75AEE0;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 500;
-    transition: all 0.3s linear;
-}
-#banner .banner_desc a:hover{
-    background-color: #FFBD00;
-    color: rgba(0, 0, 0, 0.8);
-}
 #banner .banner_desc a i{
     margin-left: 10px;
 }
@@ -95,12 +94,14 @@ a{
     background-image: linear-gradient(to right, rgba(18, 18, 18, 0.9) 0%, rgba(18, 18, 18, 0) 100%);
     border-radius: 10px;
     max-height: 312px;
-}
-#upcomingInfo nav.pageNavigation{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: space-evenly;
 }
 #upcomingInfo nav.pageNavigation a{
     display: inline-block;
@@ -130,7 +131,7 @@ a{
 #upcomingInfo .blogs_wrapper .blog img{
     width: 100%;
     border-radius: 10px 10px 0 0;
-    height: 177px;
+    min-height: 203px;
 }
 #upcomingInfo .blogs_wrapper .blog .blog_desc{
     padding: 20px;
@@ -157,6 +158,10 @@ a{
 #upcomingInfo .blogs_wrapper .blog .timeCommet span{
     display: inline-block;
     margin: 0 12px 0 6px;
+}
+#upcomingInfo .viewAll_btn{
+    display: none;
+    text-align: center;
 } 
 /* //Upcomimg Info Section CSS End */
 

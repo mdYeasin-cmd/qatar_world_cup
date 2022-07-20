@@ -34,11 +34,124 @@
     }
     /* //Banner Section CSS End */
 
+    /* Upcomimg Info Section CSS Start */
+    #upcomingInfo{
+        margin-top: 24px;
+    }
+    #upcomingInfo .upcomingInfo_wrapper{
+        grid-template-columns: 1fr;
+    }
+    #upcomingInfo .blogs_wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #upcomingInfo nav{
+        background: initial;
+        height: 250px;
+    }
+    #upcomingInfo nav.pageNavigation a{
+        border: 1px solid #E8E8E8;
+    }
+    #upcomingInfo nav.pageNavigation .blog a{
+        border: none;
+    }
+    /* //Upcomimg Info Section CSS End */
+
+    /* Footer Section CSS Start */
+    footer{
+        padding: 30px 0;
+    }
+    footer h3 {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    footer .terms_praivacy{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul.terms_praivacy li{
+        margin: 12px 0;
+    }
+    /* //Footer Section CSS End */
+
 }
 /* //Mobile Devides End */
 
 /* Tablet Devices Start */
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-    
+    /* Common CSS Start */
+    .container{
+        width: 95%;
+    }
+    /* //Common CSS End */
+
+    /* Banner Section CSS Start */
+    #banner .banner_desc{
+        padding-left: 70px;
+    }
+    #banner .banner_desc h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #banner .banner_desc p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* //Banner Section CSS End */
+
+    /* Upcomimg Info Section CSS Start */
+    #upcomingInfo{
+        margin-top: 25px;
+    }
+    #upcomingInfo .upcomingInfo_wrapper{
+        grid-template-columns: 1fr;
+    }
+    #upcomingInfo .blogs_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #upcomingInfo nav{
+        background: initial;
+        height: 250px;
+    }
+    /* #upcomingInfo nav{
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 30px;
+        background: initial;
+    } */
+    #upcomingInfo nav.pageNavigation a{
+        width: 230px;
+    }
+    #upcomingInfo nav.pageNavigation .blog a{
+        border: 1px solid #75AEE0;
+    }
+    #upcomingInfo nav.pageNavigation a{
+        border: 1px solid #E8E8E8;
+    }
+    #upcomingInfo .blogs_wrapper .blog:last-child{
+        display: none;
+    }
+    #upcomingInfo .viewAll_btn{
+        display: block;
+        margin-top: 50px;
+    } 
+    /* //Upcomimg Info Section CSS End */
+
+    /* Footer Section CSS Start */
+    footer{
+        padding: 30px 0;
+    }
+    footer h3 {
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    footer .terms_praivacy{
+        justify-content: center;
+    }
+    footer .terms_praivacy a{
+        margin: 0 20px;
+    }
+    footer ul.terms_praivacy li{
+        margin: 12px 0;
+    }
+    /* //Footer Section CSS End */
 }
 /* //Tablet Devices End */
